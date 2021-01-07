@@ -21,6 +21,7 @@ public class GoodsController extends Controller {
 		}
 	}
 	
+	// upload file
 	public void upload() {
 		UploadFile uploadFile=this.getFile("batchfile", "../upload");
 		
